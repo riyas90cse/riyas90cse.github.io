@@ -1097,6 +1097,16 @@ ul.slick-dots button {
     font-weight: 400;
     transition: all 0.3s;
 }
+.cursus-spacing {
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.cursus li::before {
+    content: "•";
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 10px;
+}
 .education:hover .cursus {
     color: var(--main-text);
 }
