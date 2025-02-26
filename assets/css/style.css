@@ -523,6 +523,13 @@ body.dark-mode .hireMe-svg-side {
     line-height: 64px;
     padding-bottom: 20px;
 }
+.creative-skills {
+    color: var(--main-text);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
 .visionary {
     color: var(--sub-text);
     font-size: 18px;
@@ -1160,7 +1167,7 @@ ul.slick-dots button {
     gap: 15px;
     max-width: 179px;
     width: 100%;
-    height: 80px;
+    height: 60px;
 }
 .photoshop {
     border: 2px solid #31A8FF;
@@ -1185,10 +1192,10 @@ ul.slick-dots button {
 }
 .skill-counter-main p:first-of-type {
     color: var(--main-text);
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 26px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-bottom: 5px;
 }
 .skill-counter-main p:nth-of-type(2) {
